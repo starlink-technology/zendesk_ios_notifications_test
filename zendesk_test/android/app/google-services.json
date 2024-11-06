@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "637963228551",
+    "project_id": "tamweeniya-dev",
+    "storage_bucket": "tamweeniya-dev.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637963228551:android:5f37ad48bc5ed373e16f22",
+        "android_client_info": {
+          "package_name": "com.starsphere.zendeskTest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQO5-pNj-4SJSpxzc_YJttmIcy0p03nAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
