@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_feather_icons/flutter_feather_icons.dart';
+import 'package:intercom_flutter/intercom_flutter.dart';
 import 'package:zendesk_test/app/data/data_source/zendesk_data_sorce.dart';
 import 'package:zendesk_test/app/presintation/alert_dialog.dart';
 import 'package:zendesk_test/app/presintation/bloc/zendesk/zendesk_support_cubit.dart';
+import 'package:zendesk_test/service/notification/firebase_notification.dart';
 import 'package:zendesk_test/utils/enum/enum.dart';
+import 'package:zendesk_test/utils/extention.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -76,7 +79,27 @@ class _HomePageState extends State<HomePage> {
                                       DataStatus.loading
                                   ? null
                                   : () async {
-                                      chatZendeskCubit.initZendeskEvent(true);
+                                      await Intercom.instance
+                                          .loginUnidentifiedUser(
+                                              statusCallback:
+                                                  IntercomStatusCallback(
+                                        onFailure: (status) {
+                                          L.error(
+                                              name: "Intercom",
+                                              msg: status.errorMessage);
+                                        },
+                                        onSuccess: () {
+                                          Intercom.instance.sendTokenToIntercom(
+                                              FirebaseNotification
+                                                      .deviceToken ??
+                                                  "");
+                                          Intercom.instance.displayMessenger();
+
+                                          L.info(
+                                              name: "Intercom",
+                                              msg: "status.toString()");
+                                        },
+                                      ));
                                     },
                               child: state.zendeskState == DataStatus.loading
                                   ? const CircularProgressIndicator()

@@ -1,21 +1,59 @@
 {
   "project_info": {
-    "project_number": "637963228551",
-    "project_id": "tamweeniya-dev",
-    "storage_bucket": "tamweeniya-dev.firebasestorage.app"
+    "project_number": "644218655755",
+    "project_id": "tamweeniya-staging",
+    "storage_bucket": "tamweeniya-staging.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:637963228551:android:5f37ad48bc5ed373e16f22",
+        "mobilesdk_app_id": "1:644218655755:android:e4e5513a6bea8f559e230e",
         "android_client_info": {
-          "package_name": "com.starsphere.zendeskTest"
+          "package_name": "com.ht.iq.staging"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCQO5-pNj-4SJSpxzc_YJttmIcy0p03nAQ"
+          "current_key": "AIzaSyA4NeM6b_nZ7vfZclYvnDjq9RMj8WoWkvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644218655755:android:5a18abedcdcd1a029e230e",
+        "android_client_info": {
+          "package_name": "com.ht.q.demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4NeM6b_nZ7vfZclYvnDjq9RMj8WoWkvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644218655755:android:1dce26b6f5bf65509e230e",
+        "android_client_info": {
+          "package_name": "com.vsp.flutter_notification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4NeM6b_nZ7vfZclYvnDjq9RMj8WoWkvU"
         }
       ],
       "services": {

@@ -34,6 +34,7 @@ Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
 }
 
 class FirebaseNotification {
+  static String? deviceToken;
   static FirebaseMessaging messaging = FirebaseMessaging.instance;
   static config() async {
     final platformConfig = DefaultFirebaseOptions.currentPlatform;
@@ -55,7 +56,7 @@ class FirebaseNotification {
     FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
 
     try {
-      final deviceToken = await messaging.getToken();
+      deviceToken = await messaging.getAPNSToken();
       L.info(name: "deviceToken:", msg: deviceToken);
     } catch (_) {}
 

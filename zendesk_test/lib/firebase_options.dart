@@ -41,48 +41,48 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAik0M1DiGJ1XgLPZd50X4N5D05xND6ACY',
-    appId: '1:637963228551:web:4a54d1798c5026d1e16f22',
-    messagingSenderId: '637963228551',
-    projectId: 'tamweeniya-dev',
-    authDomain: 'tamweeniya-dev.firebaseapp.com',
-    storageBucket: 'tamweeniya-dev.firebasestorage.app',
-    measurementId: 'G-S7EKEWYWKV',
+    apiKey: 'AIzaSyBebz_G7_lUUFhRCcelz2twdaEN0orRPbg',
+    appId: '1:644218655755:web:b3aab2abd211a2cf9e230e',
+    messagingSenderId: '644218655755',
+    projectId: 'tamweeniya-staging',
+    authDomain: 'tamweeniya-staging.firebaseapp.com',
+    storageBucket: 'tamweeniya-staging.firebasestorage.app',
+    measurementId: 'G-TCK5LT4HGT',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCQO5-pNj-4SJSpxzc_YJttmIcy0p03nAQ',
-    appId: '1:637963228551:android:5f37ad48bc5ed373e16f22',
-    messagingSenderId: '637963228551',
-    projectId: 'tamweeniya-dev',
-    storageBucket: 'tamweeniya-dev.firebasestorage.app',
+    apiKey: 'AIzaSyA4NeM6b_nZ7vfZclYvnDjq9RMj8WoWkvU',
+    appId: '1:644218655755:android:5a18abedcdcd1a029e230e',
+    messagingSenderId: '644218655755',
+    projectId: 'tamweeniya-staging',
+    storageBucket: 'tamweeniya-staging.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCqPbrFX6jWKngu_PBlu80HqO4xedP5_qs',
-    appId: '1:637963228551:ios:d9b88c3a74ebffb4e16f22',
-    messagingSenderId: '637963228551',
-    projectId: 'tamweeniya-dev',
-    storageBucket: 'tamweeniya-dev.firebasestorage.app',
-    iosBundleId: 'com.starsphere.zendeskTest',
+    apiKey: 'AIzaSyDJhqb_5mTWyEL6AtcGwLf347-FJTi1ruI',
+    appId: '1:644218655755:ios:3d555ea0afad4f909e230e',
+    messagingSenderId: '644218655755',
+    projectId: 'tamweeniya-staging',
+    storageBucket: 'tamweeniya-staging.firebasestorage.app',
+    iosBundleId: 'com.ht.iq.demo',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCqPbrFX6jWKngu_PBlu80HqO4xedP5_qs',
-    appId: '1:637963228551:ios:70bc645b115d0a20e16f22',
-    messagingSenderId: '637963228551',
-    projectId: 'tamweeniya-dev',
-    storageBucket: 'tamweeniya-dev.firebasestorage.app',
+    apiKey: 'AIzaSyDJhqb_5mTWyEL6AtcGwLf347-FJTi1ruI',
+    appId: '1:644218655755:ios:2998e0fd3fd804b79e230e',
+    messagingSenderId: '644218655755',
+    projectId: 'tamweeniya-staging',
+    storageBucket: 'tamweeniya-staging.firebasestorage.app',
     iosBundleId: 'com.example.zendeskTest',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyAik0M1DiGJ1XgLPZd50X4N5D05xND6ACY',
-    appId: '1:637963228551:web:e175dca0f0c4433fe16f22',
-    messagingSenderId: '637963228551',
-    projectId: 'tamweeniya-dev',
-    authDomain: 'tamweeniya-dev.firebaseapp.com',
-    storageBucket: 'tamweeniya-dev.firebasestorage.app',
-    measurementId: 'G-PXKQLLGLN9',
+    apiKey: 'AIzaSyBebz_G7_lUUFhRCcelz2twdaEN0orRPbg',
+    appId: '1:644218655755:web:b3aab2abd211a2cf9e230e',
+    messagingSenderId: '644218655755',
+    projectId: 'tamweeniya-staging',
+    authDomain: 'tamweeniya-staging.firebaseapp.com',
+    storageBucket: 'tamweeniya-staging.firebasestorage.app',
+    measurementId: 'G-TCK5LT4HGT',
   );
 }
